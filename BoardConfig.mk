@@ -42,3 +42,8 @@ BOARD_AVB_RECOVERY_ADD_HASH_FOOTER_ARGS += \
     --prop com.android.build.boot.security_patch:$(PLATFORM_SECURITY_PATCH) \
     --prop com.android.build.boot.os_version:$(PLATFORM_VERSION)
 
+# Bootloader
+PRODUCT_PLATFORM := bengal
+TARGET_BOOTLOADER_BOARD_NAME := bengal
+TARGET_NO_BOOTLOADER := true
+TARGET_USES_UEFI := true
