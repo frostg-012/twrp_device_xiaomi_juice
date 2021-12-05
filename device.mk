@@ -24,6 +24,10 @@ TW_INCLUDE_FBE_METADATA_DECRYPT := true
 # Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# HACK: Set vendor patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2099-12-31
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
