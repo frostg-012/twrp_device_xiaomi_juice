@@ -51,6 +51,9 @@ TARGET_USES_UEFI := true
 # Crypto
 BOARD_USES_METADATA_PARTITION := true
 
+# Custom LUN File
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
+
 # Filesystem
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_F2FS := true
