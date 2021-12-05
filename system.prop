@@ -1,0 +1,9 @@
+ro.adb.secure=0
+ro.board.platform=bengal
+ro.boot.dynamic_partitions=true
+ro.product.board=bengal
+fbe.metadata.wrappedkey=true
+persist.sys.isUsbOtgEnabled=true
+sys.usb.controller=a600000.dwc3
+sys.usb.rmnet.func.name=rmnet_bam
+sys.usb.rndis.func.name=rndis_bam
